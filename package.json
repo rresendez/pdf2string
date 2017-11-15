@@ -1,5 +1,5 @@
 {
-  "name": "pdf-extract",
+  "name": "pdf-extract-hcdd1",
   "engines": "node",
   "version": "1.0.11",
   "private": false,
@@ -13,12 +13,15 @@
   "main": "main.js",
   "folders": "lib",
   "dependencies": {
-    "eyespect": "~0.1.8",
     "async": "~0.1.22",
-    "temp": "~0.8.3",
-    "walk": "~2.2.1",
+    "express": "^4.16.2",
+    "eyes": "^0.1.8",
+    "eyespect": "~0.1.8",
+    "pathhash": "~1.0.0",
+    "pdf-extract": "^1.0.11",
     "rimraf": "~2.0.2",
-    "pathhash": "~1.0.0"
+    "temp": "~0.8.3",
+    "walk": "~2.2.1"
   },
   "devDependencies": {
     "should": "~1.2.1",

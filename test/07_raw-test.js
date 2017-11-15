@@ -86,7 +86,7 @@ describe('07 Multipage raw test', function() {
     this.slow(120*1000);
     var ocr_flags = [
       '-psm 1',
-      '-l dia',
+      '-l eng',
       'alphanumeric'
     ];
 
