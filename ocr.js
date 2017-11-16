@@ -1,6 +1,6 @@
 var inspect = require('eyes').inspector({maxLength:20000});
 var pdf_extract = require('pdf-extract');
-var absolute_path_to_pdf = 'C:/code/scan/test_files/m.pdf'
+var absolute_path_to_pdf = 'C:/code/scan/test_files/h.pdf'
 var options = {
   type: 'ocr' // perform ocr to get the text within the scanned image
 }
